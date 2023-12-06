@@ -141,7 +141,6 @@ li>a>button:hover {
 .right {
     background-color: var(--main-bg);
     padding: 10px;
-    /* display: block; */
     position: relative;
     float: right;
     right: 0;
@@ -152,7 +151,7 @@ li>a>button:hover {
 
 .right>.icon {
     position: fixed;
-    margin-right: -40px;
+    /* margin-right: -40px; */
     top: 80px;
     right: 0px;
     width: 100px;
@@ -162,10 +161,12 @@ li>a>button:hover {
 
 .icon>.fa-moon {
     color: #000000;
+    cursor: pointer;
 }
 
 .icon>.fa-sun {
     color: #ffffff;
+    cursor: pointer;
 }
 
 .title {
@@ -212,7 +213,6 @@ h1 .about {
 }
 
 .experience {
-    /* float: right; */
     display: grid;
     grid-template-columns: 100px 100px;
     grid-template-rows: 90px 90px;
@@ -254,11 +254,11 @@ h1 .about {
 .symbolTop img {
     height: 100%;
     width: 100%;
-    background-color: var(--highlight-color);
+    /* background-color: var(--highlight-color); */
     border-radius: 100%;
     z-index: 1;
     padding: 2px;
-    filter: brightness(10);
+    filter: invert(20%);
 }
 
 .symbolBottom {
